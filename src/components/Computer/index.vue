@@ -67,7 +67,6 @@ const write_list = reactive({
 });
 const onSubmit = () => {
   form.value.validate().then(() => {
-    console.log(route.query);
     showDialog({
       title: "开票申请成功",
       // message: "您的电子发票已发送至预留邮箱" + buyerEmail.value + "@qq.com",
